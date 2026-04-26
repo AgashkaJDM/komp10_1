@@ -26,6 +26,7 @@ class FoodFactory extends Factory
             'price'=> fake()->numberBetween(10, 100),
             'code'=> fake()->numberBetween(10000, 99999),
             'like_count'=> fake()->numberBetween(0,10000),
+            // a
             
         ];
     }
